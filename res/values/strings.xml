@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppleNDT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="iv_splash_content">初始启动界面图像</string>
+    <string name="iv_icon_text">Apple icon</string>
+    <string name="bt_search_bluetooth_text">搜索蓝牙</string>
+    <string name="bt_receive_data_text">接收数据</string>
+    <string name="bt_class_result_text">分级结果</string>
+    <string name="iv_back_text">返回</string>
+    <string name="tv_resistance_value_text">电阻值</string>
+    <string name="tv_resistance_value_text_unit">10\u03A9</string>
+    <string name="tv_specific_resistance_value_text">电阻率</string>
+    <string name="tv_specific_resistance_value_text_unit">10%</string>
+    <string name="tv_parallel_resistance_value_text">并联电阻值</string>
+    <string name="tv_parallel_resistance_value_text_unit">30\u03A9</string>
+    <string name="tv_series_resistance_value_text">串联电阻值</string>
+    <string name="tv_series_resistance_value_text_unit">3\u03A9</string>
+    <string name="bt_class_one_text">一级苹果</string>
+    <string name="tv_class_one_description_text">一级苹果感官品质优秀，表现为外观新鲜，色泽艳丽，口感较脆，酸甜适中，肉质细腻，香气清甜。一级苹果品种优良，采摘新鲜，建议冷藏保存，尽快出售。</string>
+
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_appleIcon_receiveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/iv_icon_text"
+        android:padding="40dp"
+        android:src="@drawable/apple_icon" />
+
+    <LinearLayout
+        android:id="@+id/ll_receiveData"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bt_recevieData_receiveData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#34B4E3"
+            android:padding="20dp"
+            android:text="@string/bt_receive_data_text"
+            android:textColor="#FFF"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <ImageView
+                android:id="@+id/iv_sliding_receiveData"
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#1A5B79"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_resistance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#1A5B79"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/tv_resistance_value"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tv_resistance_value_text"
+                        android:textColor="#FFF"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_resistance_value_unit"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_resistance_value_text_unit"
+                        android:textColor="#FFF"
+                        android:textSize="32dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_specific_resistance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#1A5B79"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/tv_specific_resistance_value"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tv_specific_resistance_value_text"
+                        android:textColor="#FFF"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_specific_resistance_value_unit"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_specific_resistance_value_text_unit"
+                        android:textColor="#FFF"
+                        android:textSize="32dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_series_resistance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#1A5B79"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/tv_series_resistance_value"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tv_series_resistance_value_text"
+                        android:textColor="#FFF"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_series_resistance_value_unit"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_series_resistance_value_text_unit"
+                        android:textColor="#FFF"
+                        android:textSize="32dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_parallel_resistance"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#1A5B79"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/tv_parallel_resistance_value"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/tv_parallel_resistance_value_text"
+                        android:textColor="#FFF"
+                        android:textSize="32sp" />
+
+                    <TextView
+                        android:id="@+id/tv_parallel_resistance_value_unit"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_parallel_resistance_value_text_unit"
+                        android:textColor="#FFF"
+                        android:textSize="32dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_back_ReceiveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/iv_back_text"
+        android:src="@drawable/triangle_dblue"
+        android:visibility="invisible" />
+
+</LinearLayout>

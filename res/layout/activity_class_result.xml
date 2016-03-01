@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_appleIcon_classResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/iv_icon_text"
+        android:padding="40dp"
+        android:src="@drawable/apple_icon" />
+
+    <LinearLayout
+        android:id="@+id/ll_classResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bt_classResult_classResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3779E7"
+            android:padding="20dp"
+            android:text="@string/bt_class_result_text"
+            android:textColor="#FFF"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <ImageView
+                android:id="@+id/iv_sliding_classResult"
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#1C3E7B"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/ll_classOne_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#1B7349"
+                    android:orientation="horizontal"
+                    android:padding="15dp" >
+
+                    <TextView
+                        android:id="@+id/tv_classOne"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/bt_class_one_text"
+                        android:textColor="#FFF"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tv_classOne_selected"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/selected" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_classOne_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tv_border_dashes"
+                    android:text="@string/tv_class_one_description_text" />
+
+                <LinearLayout
+                    android:id="@+id/ll_classOne_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#1B7349"
+                    android:orientation="horizontal"
+                    android:padding="15dp" >
+
+                    <TextView
+                        android:id="@+id/tv_classOne_one"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/bt_class_one_text"
+                        android:textColor="#FFF"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tv_classOne_one_selected"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/unselected" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_back_classResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/iv_back_text"
+        android:src="@drawable/triangle_green"
+        android:visibility="invisible" />
+
+</LinearLayout>
